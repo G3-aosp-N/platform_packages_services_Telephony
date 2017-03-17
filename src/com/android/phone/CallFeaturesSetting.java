@@ -353,7 +353,7 @@ public class CallFeaturesSetting extends PreferenceActivity
             /* tm.listen(mPhoneStateListener, PhoneStateListener.LISTEN_CALL_STATE); */
         }
 
-        refSet.removePreference(findPreference("button_callbarring_expand_key"));
+        prefSet.removePreference(findPreference("button_callbarring_expand_key"));
         prefSet.removePreference(findPreference("ims_settings_key"));
 
         Preference wifiCallingSettings = findPreference(
